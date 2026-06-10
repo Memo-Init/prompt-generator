@@ -1,0 +1,8 @@
+{
+    "tool": "tool-c",
+    "test": 1,
+    "description": "fixture test — dummy data, not a real API response",
+    "status": true,
+    "working": true,
+    "response": { "dummy": "beta tool-c test-1" }
+}

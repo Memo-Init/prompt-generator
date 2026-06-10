@@ -1,0 +1,3 @@
+{
+    "note": "namespace-level index file — the step-plan scanner must ignore files and only treat directories as schemas"
+}

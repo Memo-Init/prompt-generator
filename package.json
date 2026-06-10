@@ -1,0 +1,16 @@
+{
+    "name": "memo-init-prompt-generator",
+    "version": "0.1.0",
+    "description": "Deterministic prompt composition from a template and typed placeholder sources (string, file, function). Pure composition plus strict bidirectional validation — no LLM call.",
+    "type": "module",
+    "main": "src/index.mjs",
+    "scripts": {
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+        "test:coverage:src": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+    },
+    "license": "MIT",
+    "engines": { "node": ">=22" },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}

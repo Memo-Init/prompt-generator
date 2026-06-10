@@ -1,11 +1,8 @@
 node_modules/
-.DS_Store
-*.log
-npm-debug.log*
-.env
-.env.*
-!.env.example
 coverage/
-dist/
-.astro/
-.cache/
+tests/.tmp/
+tests/.tmp-cli/
+tests/.tmp-about/
+*.log
+.DS_Store
+.env
