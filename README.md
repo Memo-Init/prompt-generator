@@ -220,10 +220,23 @@ Each metadata record has this shape:
 ### CLI
 
 The CLI composes a whole unit list from a config module into one prompt
-file per unit plus a `manifest.json`:
+file per unit plus a `manifest.json`. Run it from the repo with `node`:
 
 ```bash
 node src/cli.mjs --config=<config.mjs> --out=<dir>
+```
+
+Both flags are mandatory — there are no default paths and no silent
+fallbacks. `--config` accepts **relative and absolute paths** (resolved via
+`resolve()` + `pathToFileURL()`), `--out` is the target directory (created
+recursively if missing).
+
+The package declares a `bin`, so after `npm link` (or `npm install -g .`)
+the same run is available as a global command with identical output:
+
+```bash
+npm link                                              # one-time, from the repo
+prompt-generator --config=<config.mjs> --out=<dir>    # global command
 ```
 
 The config module must export **exactly one** of the two forms:

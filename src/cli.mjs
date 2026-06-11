@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * Thin CLI entry — argument parsing, printing and exit code ONLY.
  *

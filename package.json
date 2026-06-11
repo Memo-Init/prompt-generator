@@ -4,6 +4,7 @@
     "description": "Deterministic prompt composition from a template and typed placeholder sources (string, file, function). Pure composition plus strict bidirectional validation — no LLM call.",
     "type": "module",
     "main": "src/index.mjs",
+    "bin": { "prompt-generator": "src/cli.mjs" },
     "scripts": {
         "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
         "test:coverage:src": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
