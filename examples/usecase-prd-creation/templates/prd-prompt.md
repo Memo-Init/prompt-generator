@@ -1,3 +1,9 @@
+<!--
+  EXAMPLE ONLY — not the canonical PRD-prompt template.
+  The Single Source lives in core: repos/core/templates/prd-prompt.md
+  (Memo 014, Kap 11). This file is a minimal illustration of the wiring; edit the
+  canonical structure in the core asset, not here, to avoid drift.
+-->
 # Create PRD-{{PRD_NUMBER}} — {{SLUG}}
 
 You are a sub-agent starting with an EMPTY context. Produce exactly one PRD
