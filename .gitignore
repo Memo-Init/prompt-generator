@@ -6,4 +6,6 @@ tests/.tmp-about/
 *.log
 .DS_Store
 .env
+.env.*
+!.env.example
 .tmp/
